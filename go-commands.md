@@ -39,3 +39,12 @@ go run main.go (bring everything from the web or chache to run not from the vend
 go run -race example.go (check for the race condition in the program)
 
 Ctrl + P then type "go tools" in vscode to install update tools for go (like gopls)
+
+// run everything
+
+- go run .
+
+## check for race condition
+
+go run --race .
+// exit status 66

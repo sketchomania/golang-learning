@@ -8,7 +8,7 @@ import (
 func main() {
 	print_notes()
 	// step1()
-	print("-----------", "\n")
+	fmt.Print("-----------", "\n")
 	// step2()
 }
 
@@ -36,7 +36,7 @@ func print_notes() {
 }
 
 func concurrency() {
-	println(`Concurrency :→
+	fmt.Println(`Concurrency :→
     → Get involved in doing the multiple tasks but not doing all the task at the same time
 	→ In concurrency only one task at a time is done.
 	→ At one instance of time you are doing only one task.
@@ -44,7 +44,7 @@ func concurrency() {
 }
 
 func parallelism() {
-	println(`Parallelism :→
+	fmt.Println(`Parallelism :→
     → Get involved in doing the multiple tasks but doing all the task at the same time
 	→ In parallelism more than one task at a time is done.
 	→ At one instance of time you are doing only more than one task.
