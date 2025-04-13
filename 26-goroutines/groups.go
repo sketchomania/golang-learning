@@ -49,7 +49,7 @@ func getStatusCode(endpoint string) {
 	res, err := http.Get(endpoint)
 
 	if err != nil {
-		fmt.Println("OOPS in endpoint")
+		fmt.Println("OOPS error in endpoint: ", endpoint, err)
 	} else {
 		mut.Lock()
 		signals = append(signals, endpoint)
