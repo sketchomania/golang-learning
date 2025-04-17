@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func main1() {
 	print_notes()
 	// step1()
 	fmt.Print("-----------", "\n")

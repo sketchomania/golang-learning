@@ -6,6 +6,18 @@ Go is a procedural programming language. It was developed in 2007 by Robert Grie
 
 ![GoLang](https://www.vertica.com/wp-content/uploads/2019/07/Golang.png)
 
+## Other Resources
+
+- [https://dave.cheney.net/practical-go](https://dave.cheney.net/practical-go)
+- [https://go.dev/doc/effective_go](https://go.dev/doc/effective_go)
+- [https://gobyexample.com/](https://gobyexample.com/)
+- [https://golangbyexample.com/](https://golangbyexample.com/)
+- [https://www.practical-go-lessons.com/](https://www.practical-go-lessons.com/)
+- [https://gowebexamples.com/](https://gowebexamples.com/)
+- [https://gosamples.dev/](https://gosamples.dev/)
+
+- [https://github.com/golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+
 ## Quick Nav
 
 - [01 Playground](01-playground)
@@ -39,10 +51,11 @@ Go is a procedural programming language. It was developed in 2007 by Robert Grie
 
 </br>
 
-- [Channel](channel/)
-  - [28-channels](28-channels/)
 - [Goroutines(Concurrency)](<goroutines(concurrency)/>)
   - [26-goroutines](26-goroutines/)
+- [Channel](channel/)
+  - [28-channels](28-channels/)
+- [Syncpool](syncpool/)
 - [Interfaces](Interfaces/)
 - [Panic](panic/)
 - [Pointer](pointer/)

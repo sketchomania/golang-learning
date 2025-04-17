@@ -6,7 +6,7 @@ import (
 	"sync"
 )
 
-func main() {
+func main2() {
 	fmt.Println("Welcome to channels in golang")
 
 	myCh := make(chan int, 2)
