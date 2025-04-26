@@ -48,4 +48,6 @@ func main() {
 
 	wg.Wait()
 	fmt.Println("\n Total allocations:", allocationCnt)
+	// cpuCount := runtime.NumCPU()
+	// fmt.Println(cpuCount, "CPU cores")
 }
